@@ -15,12 +15,19 @@
         <div class="right-align">
             <h1>Generate a <br> <span class="text-highlight">random password</span></h1>
             <p>Never use an insecure <span class="text-highlight">password</span> again</p>
-            <button>Generate passwords</button>
+            <button id="generate">Generate passwords</button>
+            <span class="length-span">Set length: </span><input id="set-length" type="number" value="15">
         </div>
         <div class="line"></div>
         <div class="wrapper">
             <input class="generated-password" id="generated-password1" type="text">
+            <span id="copy-password1">
+                <img class="copy-img" src="images/copy.png" alt="" />
+            </span>
             <input class="generated-password" id="generated-password2" type="text">
+            <span id="copy-password2">
+                <img  class="copy-img" src="images/copy.png" alt="" />
+            </span>
         </div>
     </div>
     <script src="main.js"></script>
