@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    width: 550px;
+    max-width: 550px;
     height: 550px;
     margin: 10rem auto;
     border: 1px solid #2F3E53;
@@ -53,6 +53,7 @@ body {
 .wrapper {
     display: flex;
     align-items: center;
+    
 }
 
 .line {
